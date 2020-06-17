@@ -1,0 +1,123 @@
+body{
+	font-family: "century Gothic", Verdana, sans-serif; 
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	background-color: white;
+}
+
+.contenu h2{
+	color: red;
+}
+.show-old-pass{
+	cursor: pointer;
+}
+.show-new-pwd{
+	cursor: pointer;
+}
+#information_importante{
+	border:6px solid blue;
+	width: 70%;
+	justify-content: center;
+	margin-left: auto;
+   	margin-right: auto;
+   				
+}
+#information_importante .titre-section1{
+	text-decoration: underline;
+	text-align: center;
+}
+.titre-section{
+	text-decoration: underline;
+}
+
+#formulaire{
+	border-top: 3px solid black;
+	margin-top: 50px;
+}
+.form_nom1{
+	padding-bottom: 80px;
+}
+.form_nom{
+	display: flex;
+	justify-content: space-around;
+}
+#adress{
+	border-bottom: 3px solid black;
+	padding-bottom: 50px;
+}
+#adress p{
+	padding-left: 50px;
+}
+
+.form_adress{
+	display: flex;
+	justify-content: space-around;
+}
+
+#information-cocher{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	width: 80%;
+	margin-left: auto;
+   	margin-right: auto;
+   	padding-bottom: 50px;
+   	padding-top: 10px;
+}
+#information-cocher .form-3{
+	padding-left: 20px;
+}
+#information-cocher .form-4{
+	padding-left: 20px;
+}
+#information{
+	border-bottom: 3px solid black;
+	padding-bottom: 50px;
+}
+
+
+
+.depression_oui{
+	padding-left: 30px;
+}
+#grosesses_precedente{
+	border-bottom: 3px solid black;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+
+#grosesses_actuelle{
+	border-bottom: 3px solid black;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+   	padding-bottom: 50px;
+}
+#suivi_grossesse{
+	border-bottom: 3px solid black;
+	width: 80%;
+	margin-left: auto;
+   	margin-right: auto;
+   	padding-bottom: 50px;
+}
+#validation_texte{
+	width: 70%;
+	margin-left: auto;
+   	margin-right: auto;
+   	text-align: center;
+}
+#validation_texte .texte{
+	font-size: x-small;
+}
+#validation_texte .validation{
+	color: green;
+}
+
+#footer{
+	background-color: black;
+	color: white;
+	height: 100px;
+}
